@@ -1,0 +1,4 @@
+性能监测计数器官网介绍：https://msdn.microsoft.com/en-us/library/ms190382(v=sql.120).aspx
+一个关于为什么添加计数器时有很多计数器没有:http://blog.sqlauthority.com/2014/11/07/sql-server-performance-counter-missing-how-to-get-them-back/
+
+数据库中执行 select * from sys.dm_os_performance_counters 可以选出所以的计数器
